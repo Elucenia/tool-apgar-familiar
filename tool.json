@@ -1,0 +1,282 @@
+{
+  "tool": {
+    "id": "apgar-familiar",
+    "title": "APGAR familiar",
+    "short": "Percepção da funcionalidade familiar (Smilkstein)",
+    "spec": [
+      "medicina-de-familia-e-comunidade",
+      "geriatria",
+      "psiquiatria"
+    ],
+    "desc": "APGAR familiar de Smilkstein: cinco perguntas sobre adaptação, participação, crescimento, afeição e resolução, que medem a satisfação com a funcionalidade da família.",
+    "lead": "Mede como a pessoa percebe o funcionamento da própria família, como triagem de disfunção familiar na atenção primária e no cuidado ao idoso.",
+    "fields": [
+      [
+        "a",
+        "<strong>Adaptação:</strong> estou satisfeito(a) com a ajuda que recebo da minha família quando algo me preocupa",
+        "radio",
+        {
+          "opts": {
+            "0": "Quase nunca",
+            "1": "Algumas vezes",
+            "2": "Quase sempre"
+          }
+        }
+      ],
+      [
+        "p",
+        "<strong>Participação:</strong> estou satisfeito(a) com a forma como minha família conversa comigo e divide os problemas",
+        "radio",
+        {
+          "opts": {
+            "0": "Quase nunca",
+            "1": "Algumas vezes",
+            "2": "Quase sempre"
+          }
+        }
+      ],
+      [
+        "g",
+        "<strong>Crescimento:</strong> estou satisfeito(a) com a forma como minha família aceita e apoia meus desejos de começar novas atividades ou mudar de rumo",
+        "radio",
+        {
+          "opts": {
+            "0": "Quase nunca",
+            "1": "Algumas vezes",
+            "2": "Quase sempre"
+          }
+        }
+      ],
+      [
+        "af",
+        "<strong>Afeição:</strong> estou satisfeito(a) com a forma como minha família demonstra afeto e reage às minhas emoções (raiva, tristeza, amor)",
+        "radio",
+        {
+          "opts": {
+            "0": "Quase nunca",
+            "1": "Algumas vezes",
+            "2": "Quase sempre"
+          }
+        }
+      ],
+      [
+        "r",
+        "<strong>Resolução:</strong> estou satisfeito(a) com a forma como minha família e eu compartilhamos o tempo juntos",
+        "radio",
+        {
+          "opts": {
+            "0": "Quase nunca",
+            "1": "Algumas vezes",
+            "2": "Quase sempre"
+          }
+        }
+      ]
+    ],
+    "score": {
+      "label": "APGAR familiar",
+      "unit": "de 10",
+      "bands": [
+        [
+          0,
+          "high",
+          "Elevada disfunção familiar (0 a 3 pontos)",
+          "Aprofundar a avaliação da família (genograma, ecomapa) e considerar abordagem familiar e rede de apoio."
+        ],
+        [
+          4,
+          "mid",
+          "Moderada disfunção familiar (4 a 6 pontos)",
+          "Explorar as dimensões com menor pontuação e acompanhar."
+        ],
+        [
+          7,
+          "low",
+          "Boa funcionalidade familiar (7 a 10 pontos)",
+          ""
+        ]
+      ]
+    },
+    "formula": "<p>Cinco itens (Adaptação, Participação, crescimento ou <em>Growth</em>, Afeição e Resolução), cada um pontuado 2 (quase sempre), 1 (algumas vezes) ou 0 (quase nunca). Total de 0 a 10.</p>",
+    "table": [
+      [
+        "Pontos",
+        "Interpretação"
+      ],
+      [
+        "7 a 10",
+        "Boa funcionalidade familiar"
+      ],
+      [
+        "4 a 6",
+        "Moderada disfunção familiar"
+      ],
+      [
+        "0 a 3",
+        "Elevada disfunção familiar"
+      ]
+    ],
+    "table_note": "Faixas de Smilkstein (1978). Estudos brasileiros podem usar cortes um pouco diferentes: confira a versão de validação adotada no seu serviço.",
+    "tips": [
+      "O instrumento mede a <strong>percepção</strong> de quem responde, não o funcionamento real da família: membros da mesma família podem pontuar de forma muito diferente, e essa diferença também é informação clínica.",
+      "Use como triagem e ponto de partida para a conversa; o diagnóstico da dinâmica familiar pede genograma, ecomapa e entrevista.",
+      "Pontuação baixa em pessoa idosa ou com doença crônica sinaliza risco de rede de apoio frágil: planeje o cuidado e o apoio ao cuidador.",
+      "Aplique em ambiente reservado, sem outros familiares presentes, para não constranger as respostas (especialmente se houver suspeita de violência doméstica)."
+    ],
+    "sources": [
+      [
+        "Smilkstein G. The family APGAR: a proposal for a family function test and its use by physicians. J Fam Pract, 1978.",
+        "https://pubmed.ncbi.nlm.nih.gov/660126/"
+      ],
+      [
+        "Smilkstein G, Ashworth C, Montano D. Validity and reliability of the family APGAR as a test of family function. J Fam Pract, 1982.",
+        "https://pubmed.ncbi.nlm.nih.gov/7097168/"
+      ],
+      [
+        "Duarte YAO. Tradução, adaptação transcultural e validação do \"Family Apgar\". Em: Família, Rede de Suporte Social e Idosos: Instrumentos de Avaliação. Blucher, 2020.",
+        "https://doi.org/10.5151/9788580394344-04"
+      ]
+    ],
+    "cases": [
+      [
+        "Todas as respostas \"quase sempre\": 10 pontos",
+        {
+          "a": "2",
+          "p": "2",
+          "g": "2",
+          "af": "2",
+          "r": "2"
+        },
+        {
+          "score": 10,
+          "level": "low"
+        }
+      ],
+      [
+        "Limite: 7 pontos (2, 2, 1, 1, 1)",
+        {
+          "a": "2",
+          "p": "2",
+          "g": "1",
+          "af": "1",
+          "r": "1"
+        },
+        {
+          "score": 7,
+          "level": "low"
+        }
+      ],
+      [
+        "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+        {
+          "a": "2",
+          "p": "1",
+          "g": "1",
+          "af": "1",
+          "r": "0"
+        },
+        {
+          "score": 5,
+          "level": "mid",
+          "verdict": "moderada"
+        }
+      ],
+      [
+        "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+        {
+          "a": "1",
+          "p": "1",
+          "g": "1",
+          "af": "0",
+          "r": "0"
+        },
+        {
+          "score": 3,
+          "level": "high",
+          "verdict": "elevada"
+        }
+      ]
+    ],
+    "batch": "saude-coletiva",
+    "kind": "Escore",
+    "config": {
+      "unit": "de 10",
+      "label": "APGAR familiar",
+      "fields": [
+        [
+          "a",
+          "radio",
+          0
+        ],
+        [
+          "p",
+          "radio",
+          0
+        ],
+        [
+          "g",
+          "radio",
+          0
+        ],
+        [
+          "af",
+          "radio",
+          0
+        ],
+        [
+          "r",
+          "radio",
+          0
+        ]
+      ],
+      "bands": [
+        [
+          0,
+          "high",
+          "Elevada disfunção familiar (0 a 3 pontos)",
+          "Aprofundar a avaliação da família (genograma, ecomapa) e considerar abordagem familiar e rede de apoio."
+        ],
+        [
+          4,
+          "mid",
+          "Moderada disfunção familiar (4 a 6 pontos)",
+          "Explorar as dimensões com menor pontuação e acompanhar."
+        ],
+        [
+          7,
+          "low",
+          "Boa funcionalidade familiar (7 a 10 pontos)",
+          ""
+        ]
+      ]
+    },
+    "areaId": "saude-coletiva",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/saude-coletiva.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 4,
+      "passed": 4,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/saude-coletiva.php",
+    "sha256": "5f081943f8faff99f4a6ac07fc16af6d7f8e6aa64d874af2d00ed8bae97da6a2",
+    "bytes": 77577
+  },
+  "clinicalValidation": "not-performed"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "label": "Todas as respostas \"quase sempre\": 10 pontos",
+    "input": {
+      "a": "2",
+      "p": "2",
+      "g": "2",
+      "af": "2",
+      "r": "2"
+    },
+    "expected": {
+      "score": 10,
+      "level": "low"
+    },
+    "originalInput": {
+      "a": "2",
+      "p": "2",
+      "g": "2",
+      "af": "2",
+      "r": "2"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Limite: 7 pontos (2, 2, 1, 1, 1)",
+    "input": {
+      "a": "2",
+      "p": "2",
+      "g": "1",
+      "af": "1",
+      "r": "1"
+    },
+    "expected": {
+      "score": 7,
+      "level": "low"
+    },
+    "originalInput": {
+      "a": "2",
+      "p": "2",
+      "g": "1",
+      "af": "1",
+      "r": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+    "input": {
+      "a": "2",
+      "p": "1",
+      "g": "1",
+      "af": "1",
+      "r": "0"
+    },
+    "expected": {
+      "score": 5,
+      "level": "mid",
+      "verdict": "moderada"
+    },
+    "originalInput": {
+      "a": "2",
+      "p": "1",
+      "g": "1",
+      "af": "1",
+      "r": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+    "input": {
+      "a": "1",
+      "p": "1",
+      "g": "1",
+      "af": "0",
+      "r": "0"
+    },
+    "expected": {
+      "score": 3,
+      "level": "high",
+      "verdict": "elevada"
+    },
+    "originalInput": {
+      "a": "1",
+      "p": "1",
+      "g": "1",
+      "af": "0",
+      "r": "0"
+    },
+    "expandedZeroOptions": []
+  }
+]
