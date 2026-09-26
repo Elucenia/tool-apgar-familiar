@@ -1,11 +1,11 @@
-/* tool-apgar-familiar · Elucenia · https://github.com/Elucenia/tool-apgar-familiar
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-apgar-familiar · ELUCENIA · https://github.com/Elucenia/tool-apgar-familiar
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"apgar-familiar","title":"APGAR familiar","fields":[["a","<strong>Adaptação:</strong> estou satisfeito(a) com a ajuda que recebo da minha família quando algo me preocupa","radio",{"opts":{"0":"Quase nunca","1":"Algumas vezes","2":"Quase sempre"}}],["p","<strong>Participação:</strong> estou satisfeito(a) com a forma como minha família conversa comigo e divide os problemas","radio",{"opts":{"0":"Quase nunca","1":"Algumas vezes","2":"Quase sempre"}}],["g","<strong>Crescimento:</strong> estou satisfeito(a) com a forma como minha família aceita e apoia meus desejos de começar novas atividades ou mudar de rumo","radio",{"opts":{"0":"Quase nunca","1":"Algumas vezes","2":"Quase sempre"}}],["af","<strong>Afeição:</strong> estou satisfeito(a) com a forma como minha família demonstra afeto e reage às minhas emoções (raiva, tristeza, amor)","radio",{"opts":{"0":"Quase nunca","1":"Algumas vezes","2":"Quase sempre"}}],["r","<strong>Resolução:</strong> estou satisfeito(a) com a forma como minha família e eu compartilhamos o tempo juntos","radio",{"opts":{"0":"Quase nunca","1":"Algumas vezes","2":"Quase sempre"}}]],"config":{"unit":"de 10","label":"APGAR familiar","fields":[["a","radio",0],["p","radio",0],["g","radio",0],["af","radio",0],["r","radio",0]],"bands":[[0,"high","Elevada disfunção familiar (0 a 3 pontos)","Aprofundar a avaliação da família (genograma, ecomapa) e considerar abordagem familiar e rede de apoio."],[4,"mid","Moderada disfunção familiar (4 a 6 pontos)","Explorar as dimensões com menor pontuação e acompanhar."],[7,"low","Boa funcionalidade familiar (7 a 10 pontos)",""]]},"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
