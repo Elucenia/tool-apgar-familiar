@@ -1,6 +1,16 @@
 [
   {
-    "label": "Todas as respostas \"quase sempre\": 10 pontos",
+    "id": "apgar-familiar",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Todas as respostas \"quase sempre\": 10 pontos",
+    "originalInput": {
+      "a": "2",
+      "p": "2",
+      "g": "2",
+      "af": "2",
+      "r": "2"
+    },
     "input": {
       "a": "2",
       "p": "2",
@@ -12,17 +22,37 @@
       "score": 10,
       "level": "low"
     },
+    "recordedResult": {
+      "main": [
+        "10",
+        "de 10"
+      ],
+      "label": "APGAR familiar",
+      "raw": {
+        "score": 10
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "apgar-familiar",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Limite: 7 pontos (2, 2, 1, 1, 1)",
     "originalInput": {
       "a": "2",
       "p": "2",
-      "g": "2",
-      "af": "2",
-      "r": "2"
+      "g": "1",
+      "af": "1",
+      "r": "1"
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "Limite: 7 pontos (2, 2, 1, 1, 1)",
     "input": {
       "a": "2",
       "p": "2",
@@ -34,17 +64,37 @@
       "score": 7,
       "level": "low"
     },
-    "originalInput": {
-      "a": "2",
-      "p": "2",
-      "g": "1",
-      "af": "1",
-      "r": "1"
+    "recordedResult": {
+      "main": [
+        "7",
+        "de 10"
+      ],
+      "label": "APGAR familiar",
+      "raw": {
+        "score": 7
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+    "id": "apgar-familiar",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+    "originalInput": {
+      "a": "2",
+      "p": "1",
+      "g": "1",
+      "af": "1",
+      "r": "0"
+    },
     "input": {
       "a": "2",
       "p": "1",
@@ -57,17 +107,37 @@
       "level": "mid",
       "verdict": "moderada"
     },
-    "originalInput": {
-      "a": "2",
-      "p": "1",
-      "g": "1",
-      "af": "1",
-      "r": "0"
+    "recordedResult": {
+      "main": [
+        "5",
+        "de 10"
+      ],
+      "label": "APGAR familiar",
+      "raw": {
+        "score": 5
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+    "id": "apgar-familiar",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+    "originalInput": {
+      "a": "1",
+      "p": "1",
+      "g": "1",
+      "af": "0",
+      "r": "0"
+    },
     "input": {
       "a": "1",
       "p": "1",
@@ -80,13 +150,23 @@
       "level": "high",
       "verdict": "elevada"
     },
-    "originalInput": {
-      "a": "1",
-      "p": "1",
-      "g": "1",
-      "af": "0",
-      "r": "0"
+    "recordedResult": {
+      "main": [
+        "3",
+        "de 10"
+      ],
+      "label": "APGAR familiar",
+      "raw": {
+        "score": 3
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

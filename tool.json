@@ -3,13 +3,14 @@
     "id": "apgar-familiar",
     "title": "APGAR familiar",
     "short": "Percepção da funcionalidade familiar (Smilkstein)",
+    "desc": "APGAR familiar de Smilkstein: cinco perguntas sobre adaptação, participação, crescimento, afeição e resolução, que medem a satisfação com a funcionalidade da família.",
+    "lead": "Mede como a pessoa percebe o funcionamento da própria família, como triagem de disfunção familiar na atenção primária e no cuidado ao idoso.",
+    "kind": "Escore",
     "spec": [
       "medicina-de-familia-e-comunidade",
       "geriatria",
       "psiquiatria"
     ],
-    "desc": "APGAR familiar de Smilkstein: cinco perguntas sobre adaptação, participação, crescimento, afeição e resolução, que medem a satisfação com a funcionalidade da família.",
-    "lead": "Mede como a pessoa percebe o funcionamento da própria família, como triagem de disfunção familiar na atenção primária e no cuidado ao idoso.",
     "fields": [
       [
         "a",
@@ -72,56 +73,7 @@
         }
       ]
     ],
-    "score": {
-      "label": "APGAR familiar",
-      "unit": "de 10",
-      "bands": [
-        [
-          0,
-          "high",
-          "Elevada disfunção familiar (0 a 3 pontos)",
-          "Aprofundar a avaliação da família (genograma, ecomapa) e considerar abordagem familiar e rede de apoio."
-        ],
-        [
-          4,
-          "mid",
-          "Moderada disfunção familiar (4 a 6 pontos)",
-          "Explorar as dimensões com menor pontuação e acompanhar."
-        ],
-        [
-          7,
-          "low",
-          "Boa funcionalidade familiar (7 a 10 pontos)",
-          ""
-        ]
-      ]
-    },
     "formula": "<p>Cinco itens (Adaptação, Participação, crescimento ou <em>Growth</em>, Afeição e Resolução), cada um pontuado 2 (quase sempre), 1 (algumas vezes) ou 0 (quase nunca). Total de 0 a 10.</p>",
-    "table": [
-      [
-        "Pontos",
-        "Interpretação"
-      ],
-      [
-        "7 a 10",
-        "Boa funcionalidade familiar"
-      ],
-      [
-        "4 a 6",
-        "Moderada disfunção familiar"
-      ],
-      [
-        "0 a 3",
-        "Elevada disfunção familiar"
-      ]
-    ],
-    "table_note": "Faixas de Smilkstein (1978). Estudos brasileiros podem usar cortes um pouco diferentes: confira a versão de validação adotada no seu serviço.",
-    "tips": [
-      "O instrumento mede a <strong>percepção</strong> de quem responde, não o funcionamento real da família: membros da mesma família podem pontuar de forma muito diferente, e essa diferença também é informação clínica.",
-      "Use como triagem e ponto de partida para a conversa; o diagnóstico da dinâmica familiar pede genograma, ecomapa e entrevista.",
-      "Pontuação baixa em pessoa idosa ou com doença crônica sinaliza risco de rede de apoio frágil: planeje o cuidado e o apoio ao cuidador.",
-      "Aplique em ambiente reservado, sem outros familiares presentes, para não constranger as respostas (especialmente se houver suspeita de violência doméstica)."
-    ],
     "sources": [
       [
         "Smilkstein G. The family APGAR: a proposal for a family function test and its use by physicians. J Fam Pract, 1978.",
@@ -134,6 +86,10 @@
       [
         "Duarte YAO. Tradução, adaptação transcultural e validação do \"Family Apgar\". Em: Família, Rede de Suporte Social e Idosos: Instrumentos de Avaliação. Blucher, 2020.",
         "https://doi.org/10.5151/9788580394344-04"
+      ],
+      [
+        "Smilkstein1978",
+        "https://cdn-uat.mdedge.com/files/s3fs-public/jfp-archived-issues/1978-volume_6-7/JFP_1978-06_v6_i6_the-family-apgar-a-proposal-for-a-family.pdf"
       ]
     ],
     "cases": [
@@ -196,59 +152,6 @@
         }
       ]
     ],
-    "kind": "Escore",
-    "config": {
-      "unit": "de 10",
-      "label": "APGAR familiar",
-      "fields": [
-        [
-          "a",
-          "radio",
-          0
-        ],
-        [
-          "p",
-          "radio",
-          0
-        ],
-        [
-          "g",
-          "radio",
-          0
-        ],
-        [
-          "af",
-          "radio",
-          0
-        ],
-        [
-          "r",
-          "radio",
-          0
-        ]
-      ],
-      "bands": [
-        [
-          0,
-          "high",
-          "Elevada disfunção familiar (0 a 3 pontos)",
-          "Aprofundar a avaliação da família (genograma, ecomapa) e considerar abordagem familiar e rede de apoio."
-        ],
-        [
-          4,
-          "mid",
-          "Moderada disfunção familiar (4 a 6 pontos)",
-          "Explorar as dimensões com menor pontuação e acompanhar."
-        ],
-        [
-          7,
-          "low",
-          "Boa funcionalidade familiar (7 a 10 pontos)",
-          ""
-        ]
-      ]
-    },
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -257,17 +160,266 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T13:08:00.439Z",
+      "total": 243,
+      "passed": 243,
+      "evidencePath": "reports/review-20261003/eight-additive-source-oracles-final23.json",
+      "evidenceSha256": "52360ca4cccc7b095b0de3b199fffda2e646b7a4dc92f325aa71eec61c4c7dfe",
+      "peerEvidencePath": "reports/review-20261003/eight-additive-source-oracles-independent-review-final23.json",
+      "peerEvidenceSha256": "64ff546626e0559b4f05f5eceb47e9cae355bfe7bc67f82744dbc3db60644f14",
+      "scope": "Entered discrete-point sum/count only. Original/full method conformance, input clinical adjudication, diagnostic/management decisions, prognosis, professional translations, rights and release approval are outside this test. Source-access and variant limits are retained.",
+      "source": {
+        "keys": [
+          "a",
+          "p",
+          "g",
+          "af",
+          "r"
+        ],
+        "kind": "ordinal",
+        "domain": [
+          0,
+          1,
+          2
+        ],
+        "url": "https://cdn.mdedge.com/files/s3fs-public/jfp-archived-issues/1982-volume_14-15/JFP_1982-08_v15_i2_validity-and-reliability-of-the-family-a.pdf",
+        "edition": "Smilkstein, Ashworth and Montano1982, Journal of Family Practice15:303–311",
+        "locator": "Original paper PDFp1/printed303: five items2/1/0 added; questionnaire Figure1 PDFp2/304",
+        "access": "Original nine-page publisher archive retrieved; first two pages and scoring statement read2026-10-04. Original1978 protocol and local Duarte2020 translation are not approved by this sum test."
+      },
+      "implementations": [
+        {
+          "app": "website",
+          "id": "apgar-familiar",
+          "sha256": "e50ef6fbda4a63863003dc2bd866aeeb8326355b749907658f8d65ad0601ed27"
+        },
+        {
+          "app": "dashboard",
+          "id": "apgar-familiar",
+          "sha256": "e50ef6fbda4a63863003dc2bd866aeeb8326355b749907658f8d65ad0601ed27"
+        },
+        {
+          "app": "command-center",
+          "id": "apgar-familiar",
+          "sha256": "e50ef6fbda4a63863003dc2bd866aeeb8326355b749907658f8d65ad0601ed27"
+        }
+      ],
+      "qualifications": [],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "Family APGAR/Smilkstein 1978:5 itens 0–2, total 0–10; adaptação PT citada Duarte 2020",
+    "implementationVersion": "apgar-familiar@native-2026-10-03+e50ef6fbda4a",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/660126/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Cinco itens (Adaptação, Participação, crescimento ou Growth , Afeição e Resolução), cada um pontuado 2 (quase sempre), 1 (algumas vezes) ou 0 (quase nunca). Total de 0 a 10.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "a",
+            "label": "<strong>Adaptação:</strong> estou satisfeito(a) com a ajuda que recebo da minha família quando algo me preocupa",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Quase nunca",
+              "1": "Algumas vezes",
+              "2": "Quase sempre"
+            }
+          },
+          {
+            "key": "p",
+            "label": "<strong>Participação:</strong> estou satisfeito(a) com a forma como minha família conversa comigo e divide os problemas",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Quase nunca",
+              "1": "Algumas vezes",
+              "2": "Quase sempre"
+            }
+          },
+          {
+            "key": "g",
+            "label": "<strong>Crescimento:</strong> estou satisfeito(a) com a forma como minha família aceita e apoia meus desejos de começar novas atividades ou mudar de rumo",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Quase nunca",
+              "1": "Algumas vezes",
+              "2": "Quase sempre"
+            }
+          },
+          {
+            "key": "af",
+            "label": "<strong>Afeição:</strong> estou satisfeito(a) com a forma como minha família demonstra afeto e reage às minhas emoções (raiva, tristeza, amor)",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Quase nunca",
+              "1": "Algumas vezes",
+              "2": "Quase sempre"
+            }
+          },
+          {
+            "key": "r",
+            "label": "<strong>Resolução:</strong> estou satisfeito(a) com a forma como minha família e eu compartilhamos o tempo juntos",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Quase nunca",
+              "1": "Algumas vezes",
+              "2": "Quase sempre"
+            }
+          }
+        ],
+        "hash": "e30f9e85ba40c1800b984541959e91f1f84694d50f2bcbcce6766676d13ed710"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Smilkstein G. The family APGAR: a proposal for a family function test and its use by physicians. J Fam Pract, 1978.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/660126/",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "The family APGAR: a proposal for a family function test and its use by physicians.",
+            "year": "1978",
+            "firstPublicationDate": "1978-06-01",
+            "pmid": "660126",
+            "journal": "The Journal of family practice",
+            "authors": "Smilkstein G."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/660126/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Smilkstein G, Ashworth C, Montano D. Validity and reliability of the family APGAR as a test of family function. J Fam Pract, 1982.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7097168/",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Validity and reliability of the family APGAR as a test of family function.",
+            "year": "1982",
+            "firstPublicationDate": "1982-08-01",
+            "pmid": "7097168",
+            "journal": "The Journal of family practice",
+            "authors": "Smilkstein G, Ashworth C, Montano D."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/7097168/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "0840a7f84140340eda365becf6a054f0de44dc2a89d388fb0343efe31fd673dd",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Duarte YAO. Tradução, adaptação transcultural e validação do \"Family Apgar\". Em: Família, Rede de Suporte Social e Idosos: Instrumentos de Avaliação. Blucher, 2020.",
+          "url": "https://doi.org/10.5151/9788580394344-04",
+          "class": "publisher-deposited-bibliography-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publisherDepositedMetadata": {
+            "title": "Tradução, Adaptação Transcultural e Validação do “Family Apgar”",
+            "doi": "10.5151/9788580394344-04",
+            "year": 2020,
+            "publisher": "Editora Blucher",
+            "journal": "Família, Rede de Suporte Social e Idosos: Instrumentos de Avaliação",
+            "authors": [
+              "Yeda A. O. Duarte",
+              "Marisa Accioly R. Domingues"
+            ],
+            "url": "https://doi.org/10.5151/9788580394344-04"
+          },
+          "publication": {
+            "title": "Tradução, Adaptação Transcultural e Validação do “Family Apgar”",
+            "doi": "10.5151/9788580394344-04",
+            "year": 2020,
+            "publisher": "Editora Blucher",
+            "journal": "Família, Rede de Suporte Social e Idosos: Instrumentos de Avaliação",
+            "authors": [
+              "Yeda A. O. Duarte",
+              "Marisa Accioly R. Domingues"
+            ],
+            "url": "https://doi.org/10.5151/9788580394344-04"
+          }
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T13:08:00.439Z",
+        "total": 243,
+        "passed": 243,
+        "evidencePath": "reports/review-20261003/eight-additive-source-oracles-final23.json",
+        "scope": "Entered discrete-point sum/count only. Original/full method conformance, input clinical adjudication, diagnostic/management decisions, prognosis, professional translations, rights and release approval are outside this test. Source-access and variant limits are retained.",
+        "caseEvidence": {
+          "schema": "independentArithmeticTest.cases",
+          "recordedEvidenceSha256": "519d509ee16e2173f8d7f84b19fe70d103938eefd24c17dc6899f50ad3ed9eae"
+        }
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "e50ef6fbda4a63863003dc2bd866aeeb8326355b749907658f8d65ad0601ed27"
+    },
+    "limits": "O APGAR familiar registra a percepção e a satisfação do respondente com cinco aspectos da função familiar; não é o Apgar neonatal nem uma avaliação objetiva de todos os membros. A definição original de família inclui o paciente e outras pessoas com compromisso de apoio mútuo, sem exigir parentesco biológico. As respostas podem indicar a necessidade de aprofundar a entrevista, não estabelecer sozinhas um diagnóstico familiar. O resumo de 1982 menciona um estudo em estudantes de Taiwan com 10 anos ou mais; isso não valida automaticamente todas as idades, culturas ou a redação portuguesa citada nesta implementação.",
+    "limitsEvidence": {
+      "status": "direct-original-sections-and-original-validation-abstract-read",
+      "sources": [
+        {
+          "url": "https://cdn-uat.mdedge.com/files/s3fs-public/jfp-archived-issues/1978-volume_6-7/JFP_1978-06_v6_i6_the-family-apgar-a-proposal-for-a-family.pdf",
+          "edition": "Smilkstein1978",
+          "readScope": "Direct original nine-page paper:purpose,family definition,Table3 and What does FamilyAPGAR measure sections. Named sections only."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7097168/",
+          "edition": "Smilkstein1982",
+          "readScope": "Exact cached original abstract fully read;Taiwan student study≥10years mentioned, not universal minimum age."
+        },
+        {
+          "url": "https://doi.org/10.5151/9788580394344-04",
+          "edition": "Duarte2020",
+          "readScope": "Exact book chapter not retrieved; wording/version fidelity unverified."
+        }
+      ],
+      "populationScope": "Respondent satisfaction with five components of family function.",
+      "remainingChecks": [
+        "Duarte2020 adaptation not retrieved.",
+        "Original whole-paper and all age/culture validations not completed."
+      ],
+      "clinicalValidation": "not-performed",
+      "professionalLanguageReview": "not-performed",
+      "rightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/apgar-familiar/calculator.js",
+    "bytes": 5604,
+    "sha256": "e50ef6fbda4a63863003dc2bd866aeeb8326355b749907658f8d65ad0601ed27"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "62b95a1c805ab610e6349e17448a13cf005c2e8797f175e9cb5b2b845225c398",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 243,
+      "sha256": "6d5b7ca6c80a0863f4d8b756858185a3e6922e9ba2c7548b44474bc040784f79",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
