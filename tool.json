@@ -213,7 +213,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Family APGAR/Smilkstein 1978:5 itens 0–2, total 0–10; adaptação PT citada Duarte 2020",
-    "implementationVersion": "apgar-familiar@native-2026-10-03+e50ef6fbda4a",
+    "implementationVersion": "apgar-familiar@native-2026-10-05+78ea77f09750",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/660126/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -373,7 +373,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "e50ef6fbda4a63863003dc2bd866aeeb8326355b749907658f8d65ad0601ed27"
+      "implementationHash": "78ea77f09750eabd1a6c58806051c1997a6f93b81dce7dcb0b3b6f2bf52f33a3",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "apgar-familiar@native-2026-10-03+e50ef6fbda4a",
+          "previousImplementationHash": "e50ef6fbda4a63863003dc2bd866aeeb8326355b749907658f8d65ad0601ed27",
+          "implementationHash": "78ea77f09750eabd1a6c58806051c1997a6f93b81dce7dcb0b3b6f2bf52f33a3",
+          "scientificBodySha256": "e85276683115c11c8a08c490b617391606f7137a1aaae50779ecc2e6796ea25d",
+          "metadataContractHash": "e30f9e85ba40c1800b984541959e91f1f84694d50f2bcbcce6766676d13ed710",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "O APGAR familiar registra a percepção e a satisfação do respondente com cinco aspectos da função familiar; não é o Apgar neonatal nem uma avaliação objetiva de todos os membros. A definição original de família inclui o paciente e outras pessoas com compromisso de apoio mútuo, sem exigir parentesco biológico. As respostas podem indicar a necessidade de aprofundar a entrevista, não estabelecer sozinhas um diagnóstico familiar. O resumo de 1982 menciona um estudo em estudantes de Taiwan com 10 anos ou mais; isso não valida automaticamente todas as idades, culturas ou a redação portuguesa citada nesta implementação.",
     "limitsEvidence": {
@@ -408,15 +436,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/apgar-familiar/calculator.js",
-    "bytes": 5604,
-    "sha256": "e50ef6fbda4a63863003dc2bd866aeeb8326355b749907658f8d65ad0601ed27"
+    "bytes": 5809,
+    "sha256": "78ea77f09750eabd1a6c58806051c1997a6f93b81dce7dcb0b3b6f2bf52f33a3"
   },
-  "sourceToolSha256": "62b95a1c805ab610e6349e17448a13cf005c2e8797f175e9cb5b2b845225c398",
+  "sourceToolSha256": "6d6493be9da47cdbd46356f8fd17a50553da013f4b8282ad09a7a9ee7492e2fa",
   "omittedFullReferenceBanks": [
     {
       "rows": 243,
       "sha256": "6d5b7ca6c80a0863f4d8b756858185a3e6922e9ba2c7548b44474bc040784f79",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

@@ -97,3 +97,31 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Gute familiäre Funktionalität (7 bis 10 Punkte)
+
+
+### 2
+
+Gute familiäre Funktionalität (7 bis 10 Punkte)
+
+
+### 3
+
+Mäßige familiäre Dysfunktion (4 bis 6 Punkte)
+
+Die Dimensionen mit der niedrigsten Punktzahl erkunden und nachverfolgen.
+
+
+### 4
+
+Ausgeprägte familiäre Dysfunktion (0 bis 3 Punkte)
+
+Die Familie weiter beurteilen (Genogramm, Ecomap) und einen familiären Ansatz sowie das Unterstützungsnetzwerk berücksichtigen.
+

@@ -97,3 +97,31 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Good family functionality (7 to 10 points)
+
+
+### 2
+
+Good family functionality (7 to 10 points)
+
+
+### 3
+
+Moderate family dysfunction (4 to 6 points)
+
+Explore the dimensions with the lowest score and follow up.
+
+
+### 4
+
+High family dysfunction (0 to 3 points)
+
+Further assess the family (genogram, ecomap) and consider a family approach and support network.
+

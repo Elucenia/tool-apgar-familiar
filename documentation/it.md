@@ -97,3 +97,31 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Buona funzionalità familiare (7 a 10 punti)
+
+
+### 2
+
+Buona funzionalità familiare (7 a 10 punti)
+
+
+### 3
+
+Disfunzione familiare moderata (4 a 6 punti)
+
+Esplorare le dimensioni con il punteggio più basso e fare follow-up.
+
+
+### 4
+
+Disfunzione familiare elevata (0 a 3 punti)
+
+Approfondire la valutazione della famiglia (genogramma, ecomappa) e considerare un approccio familiare e la rete di supporto.
+

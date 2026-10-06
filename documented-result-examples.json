@@ -1,0 +1,607 @@
+{
+  "id": "apgar-familiar",
+  "implementationVersion": "apgar-familiar@native-2026-10-05+78ea77f09750",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Todas as respostas \"quase sempre\": 10 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Boa funcionalidade familiar (7 a 10 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 7 pontos (2, 2, 1, 1, 1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Boa funcionalidade familiar (7 a 10 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Moderada disfunção familiar (4 a 6 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Explorar as dimensões com menor pontuação e acompanhar.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Elevada disfunção familiar (0 a 3 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Aprofundar a avaliação da família (genograma, ecomapa) e considerar abordagem familiar e rede de apoio.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Todas as respostas \"quase sempre\": 10 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Good family functionality (7 to 10 points)",
+            "locale": "en",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 7 pontos (2, 2, 1, 1, 1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Good family functionality (7 to 10 points)",
+            "locale": "en",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Moderate family dysfunction (4 to 6 points)",
+            "locale": "en",
+            "template": "documented-authored-a86a5707ddbbaf533c6f"
+          },
+          "note": {
+            "text": "Explore the dimensions with the lowest score and follow up.",
+            "locale": "en",
+            "template": "documented-authored-17244fb3b7a7386327df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "High family dysfunction (0 to 3 points)",
+            "locale": "en",
+            "template": "documented-authored-38dccc2a7a68505f6540"
+          },
+          "note": {
+            "text": "Further assess the family (genogram, ecomap) and consider a family approach and support network.",
+            "locale": "en",
+            "template": "documented-authored-8dc5fa66b0bccb868cf5"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Todas as respostas \"quase sempre\": 10 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Buena funcionalidad familiar (7 a 10 puntos)",
+            "locale": "es",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 7 pontos (2, 2, 1, 1, 1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Buena funcionalidad familiar (7 a 10 puntos)",
+            "locale": "es",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Disfunción familiar moderada (4 a 6 puntos)",
+            "locale": "es",
+            "template": "documented-authored-a86a5707ddbbaf533c6f"
+          },
+          "note": {
+            "text": "Explorar las dimensiones con menor puntuación y realizar seguimiento.",
+            "locale": "es",
+            "template": "documented-authored-17244fb3b7a7386327df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Disfunción familiar alta (0 a 3 puntos)",
+            "locale": "es",
+            "template": "documented-authored-38dccc2a7a68505f6540"
+          },
+          "note": {
+            "text": "Profundizar la evaluación de la familia (genograma, ecomapa) y considerar un abordaje familiar y la red de apoyo.",
+            "locale": "es",
+            "template": "documented-authored-8dc5fa66b0bccb868cf5"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Todas as respostas \"quase sempre\": 10 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Bonne fonctionnalité familiale (7 à 10 points)",
+            "locale": "fr",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 7 pontos (2, 2, 1, 1, 1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Bonne fonctionnalité familiale (7 à 10 points)",
+            "locale": "fr",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dysfonction familiale modérée (4 à 6 points)",
+            "locale": "fr",
+            "template": "documented-authored-a86a5707ddbbaf533c6f"
+          },
+          "note": {
+            "text": "Explorer les dimensions ayant le score le plus faible et assurer le suivi.",
+            "locale": "fr",
+            "template": "documented-authored-17244fb3b7a7386327df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dysfonction familiale élevée (0 à 3 points)",
+            "locale": "fr",
+            "template": "documented-authored-38dccc2a7a68505f6540"
+          },
+          "note": {
+            "text": "Approfondir l’évaluation de la famille (génogramme, écomap) et envisager une approche familiale et le réseau de soutien.",
+            "locale": "fr",
+            "template": "documented-authored-8dc5fa66b0bccb868cf5"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Todas as respostas \"quase sempre\": 10 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Gute familiäre Funktionalität (7 bis 10 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 7 pontos (2, 2, 1, 1, 1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Gute familiäre Funktionalität (7 bis 10 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Mäßige familiäre Dysfunktion (4 bis 6 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-a86a5707ddbbaf533c6f"
+          },
+          "note": {
+            "text": "Die Dimensionen mit der niedrigsten Punktzahl erkunden und nachverfolgen.",
+            "locale": "de",
+            "template": "documented-authored-17244fb3b7a7386327df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Ausgeprägte familiäre Dysfunktion (0 bis 3 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-38dccc2a7a68505f6540"
+          },
+          "note": {
+            "text": "Die Familie weiter beurteilen (Genogramm, Ecomap) und einen familiären Ansatz sowie das Unterstützungsnetzwerk berücksichtigen.",
+            "locale": "de",
+            "template": "documented-authored-8dc5fa66b0bccb868cf5"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Todas as respostas \"quase sempre\": 10 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Buona funzionalità familiare (7 a 10 punti)",
+            "locale": "it",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 7 pontos (2, 2, 1, 1, 1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Buona funzionalità familiare (7 a 10 punti)",
+            "locale": "it",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Disfunzione familiare moderata (4 a 6 punti)",
+            "locale": "it",
+            "template": "documented-authored-a86a5707ddbbaf533c6f"
+          },
+          "note": {
+            "text": "Esplorare le dimensioni con il punteggio più basso e fare follow-up.",
+            "locale": "it",
+            "template": "documented-authored-17244fb3b7a7386327df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Disfunzione familiare elevata (0 a 3 punti)",
+            "locale": "it",
+            "template": "documented-authored-38dccc2a7a68505f6540"
+          },
+          "note": {
+            "text": "Approfondire la valutazione della famiglia (genogramma, ecomappa) e considerare un approccio familiare e la rete di supporto.",
+            "locale": "it",
+            "template": "documented-authored-8dc5fa66b0bccb868cf5"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Todas as respostas \"quase sempre\": 10 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "وظيفة أسرية جيدة (7 إلى 10 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 7 pontos (2, 2, 1, 1, 1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "وظيفة أسرية جيدة (7 إلى 10 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "خلل وظيفي أسري متوسط (4 إلى 6 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-a86a5707ddbbaf533c6f"
+          },
+          "note": {
+            "text": "استكشاف الأبعاد ذات الدرجة الأقل والمتابعة.",
+            "locale": "ar",
+            "template": "documented-authored-17244fb3b7a7386327df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "خلل وظيفي أسري مرتفع (0 إلى 3 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-38dccc2a7a68505f6540"
+          },
+          "note": {
+            "text": "التعمق في تقييم الأسرة (مخطط النسب، الخريطة البيئية) والنظر في نهج أسري وشبكة الدعم.",
+            "locale": "ar",
+            "template": "documented-authored-8dc5fa66b0bccb868cf5"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Todas as respostas \"quase sempre\": 10 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "家庭功能良好（7至10分）",
+            "locale": "zh",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 7 pontos (2, 2, 1, 1, 1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "家庭功能良好（7至10分）",
+            "locale": "zh",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中度家庭功能障碍（4至6分）",
+            "locale": "zh",
+            "template": "documented-authored-a86a5707ddbbaf533c6f"
+          },
+          "note": {
+            "text": "探查得分最低的维度并随访。",
+            "locale": "zh",
+            "template": "documented-authored-17244fb3b7a7386327df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "高度家庭功能障碍（0至3分）",
+            "locale": "zh",
+            "template": "documented-authored-38dccc2a7a68505f6540"
+          },
+          "note": {
+            "text": "进一步评估家庭（家系图、生态图），并考虑家庭导向的处理和支持网络。",
+            "locale": "zh",
+            "template": "documented-authored-8dc5fa66b0bccb868cf5"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Todas as respostas \"quase sempre\": 10 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "家族機能は良好（7～10点）",
+            "locale": "ja",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 7 pontos (2, 2, 1, 1, 1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "家族機能は良好（7～10点）",
+            "locale": "ja",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中等度の家族機能障害（4～6点）",
+            "locale": "ja",
+            "template": "documented-authored-a86a5707ddbbaf533c6f"
+          },
+          "note": {
+            "text": "得点が最も低い側面を詳しく評価し、経過観察する。",
+            "locale": "ja",
+            "template": "documented-authored-17244fb3b7a7386327df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "高度の家族機能障害（0～3点）",
+            "locale": "ja",
+            "template": "documented-authored-38dccc2a7a68505f6540"
+          },
+          "note": {
+            "text": "家族の評価をさらに深め（ジェノグラム、エコマップ）、家族へのアプローチと支援ネットワークを考慮する。",
+            "locale": "ja",
+            "template": "documented-authored-8dc5fa66b0bccb868cf5"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Todas as respostas \"quase sempre\": 10 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "अच्छा पारिवारिक कार्य-प्रणाली (7 से 10 अंक)",
+            "locale": "hi",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 7 pontos (2, 2, 1, 1, 1)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "अच्छा पारिवारिक कार्य-प्रणाली (7 से 10 अंक)",
+            "locale": "hi",
+            "template": "documented-authored-8e566573c96b51699cb5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "मध्यम पारिवारिक विकार (4 से 6 अंक)",
+            "locale": "hi",
+            "template": "documented-authored-a86a5707ddbbaf533c6f"
+          },
+          "note": {
+            "text": "सबसे कम स्कोर वाले आयामों का पता लगाएँ और अनुवर्ती करें।",
+            "locale": "hi",
+            "template": "documented-authored-17244fb3b7a7386327df"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "उच्च पारिवारिक विकार (0 से 3 अंक)",
+            "locale": "hi",
+            "template": "documented-authored-38dccc2a7a68505f6540"
+          },
+          "note": {
+            "text": "परिवार का विस्तृत आकलन करें (जीनोग्राम, इकोमैप) और पारिवारिक दृष्टिकोण तथा सहायता नेटवर्क पर विचार करें।",
+            "locale": "hi",
+            "template": "documented-authored-8dc5fa66b0bccb868cf5"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

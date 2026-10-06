@@ -97,3 +97,31 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Bonne fonctionnalité familiale (7 à 10 points)
+
+
+### 2
+
+Bonne fonctionnalité familiale (7 à 10 points)
+
+
+### 3
+
+Dysfonction familiale modérée (4 à 6 points)
+
+Explorer les dimensions ayant le score le plus faible et assurer le suivi.
+
+
+### 4
+
+Dysfonction familiale élevée (0 à 3 points)
+
+Approfondir l’évaluation de la famille (génogramme, écomap) et envisager une approche familiale et le réseau de soutien.
+

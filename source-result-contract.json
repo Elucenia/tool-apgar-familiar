@@ -1,0 +1,226 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "apgar-familiar",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "4eb890728e98573acc2031f412b4544fe4843e86",
+    "oldEngineSha256": "e50ef6fbda4a63863003dc2bd866aeeb8326355b749907658f8d65ad0601ed27",
+    "currentEngineSha256": "78ea77f09750eabd1a6c58806051c1997a6f93b81dce7dcb0b3b6f2bf52f33a3"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Todas as respostas \"quase sempre\": 10 pontos",
+      "input": {
+        "a": "2",
+        "p": "2",
+        "g": "2",
+        "af": "2",
+        "r": "2"
+      },
+      "publicOutput": {
+        "id": "apgar-familiar",
+        "main": [
+          "10",
+          "de 10"
+        ],
+        "label": "APGAR familiar",
+        "raw": {
+          "score": 10
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 10,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "10",
+          "de 10"
+        ],
+        "label": "APGAR familiar",
+        "level": "low",
+        "verdict": "Boa funcionalidade familiar (7 a 10 pontos)",
+        "note": "",
+        "raw": {
+          "score": 10
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Limite: 7 pontos (2, 2, 1, 1, 1)",
+      "input": {
+        "a": "2",
+        "p": "2",
+        "g": "1",
+        "af": "1",
+        "r": "1"
+      },
+      "publicOutput": {
+        "id": "apgar-familiar",
+        "main": [
+          "7",
+          "de 10"
+        ],
+        "label": "APGAR familiar",
+        "raw": {
+          "score": 7
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 7,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "7",
+          "de 10"
+        ],
+        "label": "APGAR familiar",
+        "level": "low",
+        "verdict": "Boa funcionalidade familiar (7 a 10 pontos)",
+        "note": "",
+        "raw": {
+          "score": 7
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "5 pontos (2, 1, 1, 1, 0): moderada disfunção",
+      "input": {
+        "a": "2",
+        "p": "1",
+        "g": "1",
+        "af": "1",
+        "r": "0"
+      },
+      "publicOutput": {
+        "id": "apgar-familiar",
+        "main": [
+          "5",
+          "de 10"
+        ],
+        "label": "APGAR familiar",
+        "raw": {
+          "score": 5
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 5,
+        "level": "mid",
+        "verdict": "moderada"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "5",
+          "de 10"
+        ],
+        "label": "APGAR familiar",
+        "level": "mid",
+        "verdict": "Moderada disfunção familiar (4 a 6 pontos)",
+        "note": "Explorar as dimensões com menor pontuação e acompanhar.",
+        "raw": {
+          "score": 5
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "3 pontos (1, 1, 1, 0, 0): elevada disfunção",
+      "input": {
+        "a": "1",
+        "p": "1",
+        "g": "1",
+        "af": "0",
+        "r": "0"
+      },
+      "publicOutput": {
+        "id": "apgar-familiar",
+        "main": [
+          "3",
+          "de 10"
+        ],
+        "label": "APGAR familiar",
+        "raw": {
+          "score": 3
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 3,
+        "level": "high",
+        "verdict": "elevada"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "3",
+          "de 10"
+        ],
+        "label": "APGAR familiar",
+        "level": "high",
+        "verdict": "Elevada disfunção familiar (0 a 3 pontos)",
+        "note": "Aprofundar a avaliação da família (genograma, ecomapa) e considerar abordagem familiar e rede de apoio.",
+        "raw": {
+          "score": 3
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}
